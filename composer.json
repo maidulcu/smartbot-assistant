@@ -1,0 +1,13 @@
+{
+  "name": "dynamicweblab/smartbot-assistant",
+  "type": "wordpress-plugin",
+  "description": "SmartBot Assistant – AI-powered chatbot for WordPress with FAQ training, CPT integration, and AI assistant sync.",
+  "autoload": {
+    "psr-4": {
+      "SmartBot\\": "src/"
+    }
+  },
+  "require": {
+    "league/csv": "^9.0"
+  }
+}
